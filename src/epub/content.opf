@@ -29,6 +29,9 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Inspector General</dc:title>
 		<meta property="file-as" refines="#title">Inspector General, The</meta>
+		<meta property="dcterms:alternative" refines="#title">The Government Inspector</meta>
+		<meta property="dcterms:alternative" refines="#title">Revizor</meta>
+		<meta property="alternate-script" refines="#title">Ревизор</meta>
 		<dc:subject id="subject-1">Comedy plays</dc:subject>
 		<meta property="authority" refines="#subject-1">LCHS</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
@@ -38,14 +41,16 @@
 		<dc:subject id="subject-3">Russian drama -- Translations into English</dc:subject>
 		<meta property="authority" refines="#subject-3">LCHS</meta>
 		<meta property="term" refines="#subject-3">sh2010111598</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Comedy</meta>
+		<meta property="se:subject">Drama</meta>
+		<dc:description id="description">In a small Russian town, the corrupt officials are thrown into disarray by the arrival of an Inspector General from the central government.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;A small Russian town is an absolute mess: prisoners are not being fed their rations, the invalid are left to die, trash piles up against monuments, the courthouse is being used to hold livestock, and everybody is taking bribes. All are put onto alert by the news that an Inspector General from the central goverment is due to arrive incognito, and when it is discovered that there is a suspicious young man from St. Petersburg staying in an inn, all is thrown into disarray.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/nikolai-gogol"&gt;Nikolai Gogol&lt;/a&gt; was known for his short fiction when he published &lt;i&gt;The Inspector General&lt;/i&gt;; in a time of strict censorship, permission to perform the play was obtained through personal approval by Czar Nicholas I, who was present at the play’s premiere in 1836. Widely reagarded as one of the great plays, not only of the Russian canon but of the world, &lt;i&gt;The Inspector General&lt;/i&gt; has been adapted dozens of times for film, television, radio, and opera, and has been staged around the world.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3735</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
+		<dc:source>https://archive.org/details/inspectorgeneral00gogouoft</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
@@ -53,15 +58,15 @@
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/nikolai-gogol_the-inspector-general_thomas-seltzer</meta>
 		<dc:creator id="author">Nikolai Gogol</dc:creator>
 		<meta property="file-as" refines="#author">Gogol, Nikolai</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Nikolai Vasilievich Gogol</meta>
+		<meta property="alternate-script" refines="#author">Николай Гоголь</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Nikolai_Gogol</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79056736</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Thomas Seltzer</dc:contributor>
 		<meta property="file-as" refines="#translator">Seltzer, Thomas</meta>
-		<meta property="se:name.person.full-name" refines="#translator">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Thomas_Seltzer</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/nr90003742</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
@@ -75,9 +80,8 @@
 		<meta property="file-as" refines="#transcriber-2">David, Widger</meta>
 		<meta property="se:url.authority.nacoaf" refines="#transcriber-2">http://id.loc.gov/authorities/names/no2011017869</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Asher Smith</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Smith, Asher</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
